@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Tangerine&display=swap');
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegacion{
+    display: flex;
+}
+.navegacion ul li {
+    display: flex;
+    display: inline-block;
+    padding-right: 20px;
+}
+a{
+    color: rgb(249, 131, 89);
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.encabezado{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner img{
+    width: 100%;
+    height: 400px;
+}
+.iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconos i{
+    color: rgb(249, 131, 89);
+    font-size: 50px;
+    padding: 5px 20px 0px;
+}
+.nombre{
+    width: 100%;
+    display: flex;
+    background-color: rgb(252, 195, 104);
+}
+.nombre img{
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    padding: 10px 0px 10px 10px;
+
+}
+.nombre h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 200;
+    margin: 0px;
+    padding-top: 50px;
+}
+.nombre h2 strong{
+    font-size: 150px;
+}
